@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    background: #fff url('');
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: blueviolet;
+    position: sticky;
+    z-index: 10000;
+    top: 0;
+    opacity: 0.9;
+    width: 100%;
+}
+
+#paragraph p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 4vh;
+}
+
+#cards p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 4vh;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: georgia;
+}
+
+main {
+    padding: 0px 10vw 0px 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    padding: 20px 0px 20px 0px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para1 {
+    margin: 40px;
+    padding: 0px 30px 30px 30px;
+    width: 70vw;
+    border: 2px solid rgb(70, 68, 68);
+    border-radius: 5px;
+}
+
+.container {
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 60vw;
+    margin-bottom: 50px;
+    padding: 25px;
+    background-color: aliceblue;
+}
+
+#btn {
+    padding: 10px;
+    background-color: rgb(23, 83, 161);
+    text-transform: capitalize;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
