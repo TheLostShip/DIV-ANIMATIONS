@@ -5,9 +5,13 @@
 }
 
 #loading {
+    position: fixed;
     width: 100%;
     height: 100vh;
-    background: #fff url('');
+    background: #19343f url('https://loading.io/spinners/clock/lg.walking-clock-preloader.gif') no-repeat center;
+    /* background: #fff url('https://loading.io/spinners/progress-pic/lg.percent-circular-preloader-gif.gif'); */
+    /* background: #fff url('https://garudapar.in/wp-content/uploads/2017/12/loader.gif'); */
+    z-index: 99999;
 }
 
 header {
@@ -38,7 +42,7 @@ header {
 .title {
     text-transform: uppercase;
     font-size: 1.5em;
-    font-family: georgia;
+    font-family: cursive;
 }
 
 main {
